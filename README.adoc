@@ -1,2 +1,2 @@
-## This is a small demonstration of using loops in java script
+## This is a small demonstration of using functions in java script
 Just Click with the mouse into empty frames you see on screen.
