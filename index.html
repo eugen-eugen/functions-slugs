@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>More than one Slug</title>
+        <script src="slug.js"></script>
+        <script src="slugs.js"></script>
+        <link rel="stylesheet" href="slug.css">
+    </head>
+    <body>
+        <canvas id = "canvas50x25" width="50" height="25" onclick="drawASlug('canvas50x25', 1, 0, 0)"></canvas>
+        <canvas id = "canvas75x75" width="75" height="75" onclick="drawASlug('canvas75x75')"></canvas>
+        <canvas id = "canvas100x75" width="100" height="75" onclick="drawASlug('canvas100x75')"></canvas>
+        <canvas id = "canvas100x100" width="100" height="100" onclick="drawASlug('canvas100x100')"></canvas>
+        <canvas id = "canvas100x125" width="100" height="125"onclick="drawASlug('canvas100x125')"></canvas>
+        <canvas id = "canvas125x175" width="125" height="175" onclick="drawASlug('canvas125x175')"></canvas>
+        <div>
+        <canvas id = "canvas1000x1000" width="1000" height="1000" 
+                      onclick="drawASlug('canvas1000x1000', 0.5, 0, 0); drawASlug('canvas1000x1000', 0.5, 0.5, 0.5); ; drawASlug('canvas1000x1000', 0.5, 0, 0.5)"></canvas>
+        </div>
+        
+        <canvas id = "canvas500x500" width="500" height="500" 
+                      onclick="drawNxNslugs('canvas500x500', 4)"></canvas>
+        </div>
+    </body>
+</html>
